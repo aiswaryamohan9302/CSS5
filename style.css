@@ -1,0 +1,247 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+
+input,
+textarea,
+select {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a {
+	color: #1C2C40;
+}
+
+a:hover,
+.submit:hover {
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+
+.thumb {
+	display: block;
+}
+
+.thumb img {
+	display: block;
+	width: 100%;
+}
+
+p {
+	line-height: 1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+
+.hidden {
+	display: none;
+}
+
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src: url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src: url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Std-Bold';
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+	src: url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-style: normal
+}
+
+/*MY CODE STARTS HERE*/
+.container-fluid {
+	margin: 100px;
+}
+
+.navbar {
+	display: flex;
+	padding: 20px 75px;
+	justify-content: space-between;
+}
+
+.navbar img {
+	width: 80px;
+	height: 40px;
+}
+
+.center a {
+	color: #AEAEAE;
+}
+
+.center {
+	font-family: 'Circular-Std-Bold';
+	display: flex;
+	gap: 40px;
+	align-items: center;
+	text-align: center;
+	color: #AEAEAE;
+	font-size: 16px;
+}
+
+.right {
+	display: flex;
+}
+
+.right button {
+	font-family: 'Circular-Std-Bold';
+	color: #fff;
+	padding: 0px 25px;
+	font-size: 16px;
+	font-weight: 400px;
+	border-radius: 20px;
+}
+
+.right .getstarted {
+	color: #175CFF;
+	background-color: transparent;
+	border: 2px solid #AEAEAE;
+
+}
+
+.right .login {
+	color: #AEAEAE;
+
+}
+
+.container-fluid {
+	display: flex;
+}
+
+.description h1 {
+	color: #0A083A;
+	font-size: 87px;
+	font-weight: 650;
+	margin-top: 70px;
+}
+
+.description p {
+	color: #818392;
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.description span{
+	color: #58596E;
+	font-weight: bold;
+}
+
+.description button {
+	font-family: 'Circular-Std-Bold';
+	color: #fff;
+	padding: 20px 40px;
+	font-size: 16px;
+	font-weight: 400px;
+	border-radius: 30px;
+	color: white;
+	background-color: #175CFF;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+
+.description a {
+	margin-left: 10px;
+	color: #818392;
+}
+
+.description .options{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.pictures {
+	position: relative;
+}
+
+
+.blank {			
+	height: 700px;
+	width: 800px;
+	background-color: #E3E3E3;
+	margin-top: 25px;
+	margin-left: 300px;
+	position: relative;
+}
+
+.image {
+	position: absolute;
+	top: -18px;
+	height:592px;
+	width:455px;
+	left:160px;
+}
+
+.mesh {
+	position:absolute;
+	top:401px;
+	left:507px;
+	height:213px;
+	width:137px;
+}
+.description2 {
+	height: 275px;
+	width: 468px;
+	background-color: #0A083A;
+	padding: 25px;
+	position:relative;
+	top:-252px;
+}
+
+.description2 p {
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.quote{
+	position:absolute;
+	top:-2px;
+	left:-30px;
+
+
+}
